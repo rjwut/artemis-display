@@ -119,7 +119,7 @@ public class Configuration {
     addFlag("no-silhouettes", null, "Always render arrows instead of ship silhouettes", (config, args) -> {
       config.setRenderOption(RenderOption.DRAW_SILHOUETTES, false);
     });
-    addFlag("ship", "index", "Ship index to display (0 - 7 inclusive)", (config, args) -> {
+    addFlag("ship", "index", "Ship index to display (1 - 8 inclusive)", (config, args) -> {
       config.setShipIndex((byte) (Byte.parseByte(args.get(0)) - 1));
     });
     addFlag("static", null, "Fill display with static on impact", (config, args) -> {

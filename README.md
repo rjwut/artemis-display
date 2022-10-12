@@ -1,5 +1,7 @@
 # Artemis Display
 
+> **[🔽 DOWNLOAD LATEST RELEASE](https://github.com/rjwut/artemis-display/releases/latest)**
+
 **Artemis Display** is an application that connects to an _Artemis: Spaceship Bridge Simulator_ server to display real-time gameplay information. The displays provided by this application are information radiators, not interactive consoles. Think of it as functional set dressing that you can add to your bridge.
 
 ## Requirements

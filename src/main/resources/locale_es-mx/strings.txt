@@ -1,0 +1,190 @@
+# Spanish (Mexico) strings file
+
+# Alert conditions
+alert.condition.blue=CONDITIÓN\nAZUL
+alert.condition.green=CONDITIÓN\nVERDE
+alert.condition.red=CONDITIÓN\nROJO
+alert.condition.yellow=CONDITIÓN\nAMARILLO
+
+# Bases display
+bases.degrees={0,number,integer}°
+bases.range.near={0,number,integer}
+bases.range.far={0,number,integer}k
+bases.unknown=-?-
+bases.bearing=Rumbo
+bases.distance=Dist
+bases.shields=Escd
+bases.type=Tipo
+bases.type.deep_space=EspP
+bases.type.civilian=Civl
+bases.type.command=Mando
+bases.type.industrial=Ind
+bases.type.science=Cien
+bases.type.enemy=Enmg
+bases.type.other=Otro
+
+# Canvas
+canvas.close_instructions=ESC para cerrar
+canvas.close_and_move_instructions=ESC para cerrar; SHIFT + flechas IZQUIERA/DERECHA para cambiar monitores
+canvas.paused=En pausa
+canvas.standing_by={0} esperando
+canvas.unknown_ship=<DESCONOCIDO>
+canvas.waiting=Esperando al servidor\n{0}
+
+# Configuration dialog strings
+configDialog.connect=Conectar
+configDialog.advanced=Avanzado
+configDialog.host=Servidor
+configDialog.host_title=La dirección o nombre del servidor Artemis
+configDialog.scan=Escanear
+configDialog.scan_title=Buscar servidores Artemis en la red
+configDialog.shipNumber=Número de la nave
+configDialog.shipNumber_title=La nave para que se usa esta visualización
+configDialog.artemisInstall=Instalación de Artemis
+configDialog.artemisInstall_title=(opcional) El lugar dónde se instaló Artemis
+configDialog.windowMode=Modo de ventana
+configDialog.windowMode_title=El modo de ventana para usar para mostrar la visualización
+configDialog.windowMode.fullscreen=Pantalla completa
+configDialog.windowMode.windowed_fullscreen=Pantalla completa en ventana
+configDialog.windowMode.windowed=En ventana
+configDialog.monitor=Monitor
+configDialog.monitor_title=El monitor para usar para mostrar la visualización
+configDialog.identify=Identificar
+configDialog.identify_title=Mostrar el número de cada monitor
+configDialog.display=Visualización
+configDialog.display_title=Seleccionar la visualización para mostrar
+configDialog.display.alert=Estado de alerta
+configDialog.display.bases=Estado de bases
+configDialog.display.captain_target=Objetivo del capitán
+configDialog.display.lrs=Sensores de largo alcance
+configDialog.display.missions=Misiones
+configDialog.display.ordnance=Artillería
+configDialog.display.player_ship=Nave del jugador
+configDialog.display.science_target=Objetivo de ciencia
+configDialog.display.systems=Estado de sistemas
+configDialog.display.tactical=Vista táctica
+configDialog.display.timer=Reloj
+configDialog.display.tubes=Tubos
+configDialog.display.weapons_target=Objetivo de armas
+configDialog.display.custom=Diseño personalizado
+configDialog.layoutFile=Archivo de diseño
+configDialog.layoutFile_title=Seleccionar el archivo que describe el deseño deseado
+configDialog.renderOptions=Opciones de renderizado
+configDialog.antialiasing=Suavizado
+configDialog.antialiasing_title=Mejora la calidad de la visualización pero reduce el rendimiento.
+configDialog.subpixel_font_rendering=Representación de fuentes de subpíxeles
+configDialog.subpixel_font_rendering_title=Mejora la calidad de la visualización pero reduce el rendimiento.
+configDialog.draw_silhouettes=Dibujar siluetas
+configDialog.draw_silhouettes_title=Habilitar para dibujar siluetas para barcos en lugar de flechas. Requiere que se configure el directorio de instalación de Artemis. Deshabilitar esto mejora el rendimiento.
+configDialog.impact_shake=Tiemblar con impacto
+configDialog.impact_shake_title=Hace que la pantalla tiemble cuando se impacta la nave.
+configDialog.impact_dim=Oscurar con impacto
+configDialog.impact_dim_title=Hace que la pantalla se oscura cuando se impacta la nave. Deshabilitar esto mejora el rendimiento.
+configDialog.impact_static=Estático con impacto
+configDialog.impact_static_title=Hace que la pantalla se llena de estático cuando se impacta la nave. Deshabilitar esto mejora el rendimiento.
+configDialog.notSet=<no fijado>
+configDialog.start=Empezar
+configDialog.start_title=Inicia la visualización
+
+# Creature types
+creature.typhon=Tifón
+creature.whale=Ballena
+creature.shark=Tiburón
+creature.dragon=Dragón
+creature.piranha=Piraña
+creature.charybdis=Caribdis
+creature.nsect=Insecto
+creature.jelly=Medusa
+creature.wreck=Naufragio
+creature.unknown=ZZ
+
+# Missions display
+missions.missions=MISIONES
+missions.offering_energy=OFRECIENDO ENERGÍA
+missions.none=No hay misiones disponibles
+missions.unknown_contact=-?-
+
+# Ordnance
+ordnance.ship=Nave
+ordnance.torpedo=Torpedo
+ordnance.torpedo.short=Tor
+ordnance.nuke=Arma nuclear
+ordnance.nuke.short=Nuc
+ordnance.mine=Mina
+ordnance.mine.short=Min
+ordnance.emp=PEM
+ordnance.emp.short=Pem
+ordnance.pshock=ChoqueP
+ordnance.pshock.short=ChP
+ordnance.beacon=Faro
+ordnance.beacon.short=Faro
+ordnance.probe=Sonda
+ordnance.probe.short=Sda
+ordnance.tag=Etiqueta
+ordnance.tag.short=Etq
+ordnance.empty=vacío
+ordnance.unknown=-?-
+
+# Ship systems
+systems.beams=Rayos
+systems.torpedoes=Torpedos
+systems.sensors=Sensores
+systems.maneuvering=Maniobra
+systems.impulse=Impulso
+systems.warp_drive=Warp
+systems.jump_drive=Salto
+systems.fore_shields=Escudos delanteros
+systems.aft_shields=Escudos de popa
+
+# Target displays (weapons, science, captain)
+target.anomaly=Anomalía
+target.asteroid=Asteroide
+target.base.unknown=Base desconocido
+target.beacon=Faro
+target.beacon.mode_and_type={0} {1}
+target.beacon.mode.attract=atraer
+target.beacon.mode.repel=repeler
+target.black_hole=Agujero negro
+target.creature.unknown=Desconocido
+target.data.beams=Rayos
+target.data.beams.auto=AUTO
+target.data.beams.manual=MANUAL
+target.data.combat_jump=Salto de combate
+target.data.energy=Energía
+target.data.frequencies=Frecuencias
+target.data.health=Salud
+target.data.ordnance=Artillería
+target.data.shields=Escudos
+target.data.shields.forward=Delanteros
+target.data.shields.aft=De popa
+target.data.special.stealth=Sigilo
+target.data.special.low_vis=BajaVis
+target.data.special.cloak=Capa
+target.data.special.het=GAE
+target.data.special.warp=Warp
+target.data.special.teleport=Teletransportarse
+target.data.special.tractor=Tractor
+target.data.special.drones=Zánganos
+target.data.special.anti_mine=Contra-mina
+target.data.special.anti_torp=Contra-torpedo
+target.data.special.shield_drain=Drenaje de escudo
+target.data.special.shield_vamp=Vampiro de escudo
+target.data.special.tele_back=Saltar atrás
+target.data.special.shield_reset=Reiniciar escudo
+target.data.special.on=PRENDIDO
+target.data.special.off=apagado
+target.data.systems=Sistemas
+target.data.type=Tipo
+target.data.unknown_value=-?-
+target.drone=Zángano
+target.mesh.unknown=Desconocido
+target.mine=Mina
+target.nebula=Nebulosa
+target.none=No hay objectivo
+target.npc.type.unscanned=Nave desconocido
+target.range.near=Rango: {0,number,integer}
+target.range.far=Rango: {0,number,0.0}k
+target.scan=Escanear
+target.torpedo=Torpedo
+target.unknown_name=Desconocido
+target.vessel.race_and_class={1} {0}

@@ -1,0 +1,190 @@
+# English (United States) strings file
+
+# Alert conditions
+alert.condition.blue=CONDITION\nBLUE
+alert.condition.green=CONDITION\nGREEN
+alert.condition.red=CONDITION\nRED
+alert.condition.yellow=CONDITION\nYELLOW
+
+# Bases display
+bases.degrees={0,number,integer}°
+bases.range.near={0,number,integer}
+bases.range.far={0,number,integer}k
+bases.unknown=-?-
+bases.bearing=Brng
+bases.distance=Dist
+bases.shields=Shld
+bases.type=Type
+bases.type.deep_space=Deep
+bases.type.civilian=Civl
+bases.type.command=Cmnd
+bases.type.industrial=Ind
+bases.type.science=Sci
+bases.type.enemy=Enmy
+bases.type.other=Othr
+
+# Canvas
+canvas.close_instructions=ESC to close
+canvas.close_and_move_instructions=ESC to close; SHIFT + left/right arrows to change monitors
+canvas.paused=Paused
+canvas.standing_by={0} standing by
+canvas.unknown_ship=<UNKNOWN>
+canvas.waiting=Waiting for server\n{0}
+
+# Configuration dialog strings
+configDialog.connect=Connect
+configDialog.advanced=Advanced
+configDialog.host=Host
+configDialog.host_title=The IP address or host name of the Artemis server
+configDialog.scan=Scan
+configDialog.scan_title=Search for Artemis servers on the LAN
+configDialog.shipNumber=Ship number
+configDialog.shipNumber_title=Which ship this display is for
+configDialog.artemisInstall=Artemis install
+configDialog.artemisInstall_title=(optional) The location of your Artemis installation
+configDialog.windowMode=Window mode
+configDialog.windowMode_title=The window mode to use to show the display
+configDialog.windowMode.fullscreen=Fullscreen
+configDialog.windowMode.windowed_fullscreen=Windowed fullscreen
+configDialog.windowMode.windowed=Windowed
+configDialog.monitor=Monitor
+configDialog.monitor_title=The monitor on which to show the display
+configDialog.identify=Identify
+configDialog.identify_title=Click to show the number for each monitor
+configDialog.display=Display
+configDialog.display_title=Select the display to show
+configDialog.display.alert=Alert status
+configDialog.display.bases=Bases status
+configDialog.display.captain_target=Captain target
+configDialog.display.lrs=Long range sensors
+configDialog.display.missions=Missions
+configDialog.display.ordnance=Ordnance
+configDialog.display.player_ship=Player ship
+configDialog.display.science_target=Science target
+configDialog.display.systems=Systems status
+configDialog.display.tactical=Tactical view
+configDialog.display.timer=Timer
+configDialog.display.tubes=Tubes
+configDialog.display.weapons_target=Weapons target
+configDialog.display.custom=Custom layout
+configDialog.layoutFile=Layout file
+configDialog.layoutFile_title=Select the file that describes the desired layout
+configDialog.renderOptions=Render options
+configDialog.antialiasing=Antialiasing
+configDialog.antialiasing_title=Improves display quality but reduces performance.
+configDialog.subpixel_font_rendering=Subpixel font rendering
+configDialog.subpixel_font_rendering_title=Improves display quality but reduces performance.
+configDialog.draw_silhouettes=Draw silhouettes
+configDialog.draw_silhouettes_title=Enabling this draws silhouettes for ships instead of arrows. Requires the Artemis install directory to be set. Disabling this improves performance.
+configDialog.impact_shake=Shake on impact
+configDialog.impact_shake_title=Causes the screen to shake when the ship is impacted.
+configDialog.impact_dim=Dim on impact
+configDialog.impact_dim_title=Causes the screen to dim when the ship is impacted. Disabling this improves performance
+configDialog.impact_static=Static on impact
+configDialog.impact_static_title=Causes the screen to fill with static when the ship is impacted. Disabling this improves performance.
+configDialog.notSet=<not set>
+configDialog.start=Start
+configDialog.start_title=Launches the display
+
+# Creature types
+creature.typhon=Typhon
+creature.whale=Whale
+creature.shark=Shark
+creature.dragon=Dragon
+creature.piranha=Piranha
+creature.charybdis=Charybdis
+creature.nsect=Nsect
+creature.jelly=Jelly
+creature.wreck=Wreck
+creature.unknown=ZZ
+
+# Missions display
+missions.missions=MISSIONS
+missions.offering_energy=OFFERING ENERGY
+missions.none=No missions available
+missions.unknown_contact=-?-
+
+# Ordnance
+ordnance.ship=Ship
+ordnance.torpedo=Torpedo
+ordnance.torpedo.short=Tor
+ordnance.nuke=Nuke
+ordnance.nuke.short=Nuk
+ordnance.mine=Mine
+ordnance.mine.short=Min
+ordnance.emp=EMP
+ordnance.emp.short=Emp
+ordnance.pshock=PShock
+ordnance.pshock.short=Psk
+ordnance.beacon=Beacon
+ordnance.beacon.short=Bcn
+ordnance.probe=Probe
+ordnance.probe.short=Pro
+ordnance.tag=Tag
+ordnance.tag.short=Tag
+ordnance.empty=empty
+ordnance.unknown=-?-
+
+# Ship systems
+systems.beams=Beams
+systems.torpedoes=Torpedoes
+systems.sensors=Sensors
+systems.maneuvering=Maneuvering
+systems.impulse=Impulse Drive
+systems.warp_drive=Warp Drive
+systems.jump_drive=Jump Drive
+systems.fore_shields=Forward Shields
+systems.aft_shields=Aft Shields
+
+# Target displays (weapons, science, captain)
+target.anomaly=Anomaly
+target.asteroid=Asteroid
+target.base.unknown=Unknown base
+target.beacon=Beacon
+target.beacon.mode_and_type={0} {1}
+target.beacon.mode.attract=attract
+target.beacon.mode.repel=repel
+target.black_hole=Black Hole
+target.creature.unknown=Unknown
+target.data.beams=Beams
+target.data.beams.auto=AUTO
+target.data.beams.manual=MANUAL
+target.data.combat_jump=Combat jump
+target.data.energy=Energy
+target.data.frequencies=Frequencies
+target.data.health=Health
+target.data.ordnance=Ordnance
+target.data.shields=Shields
+target.data.shields.forward=Forward
+target.data.shields.aft=Aft
+target.data.special.stealth=Stealth
+target.data.special.low_vis=LowVis
+target.data.special.cloak=Cloak
+target.data.special.het=HET
+target.data.special.warp=Warp
+target.data.special.teleport=Teleport
+target.data.special.tractor=Tractor
+target.data.special.drones=Drones
+target.data.special.anti_mine=Anti-mine
+target.data.special.anti_torp=Anti-torp
+target.data.special.shield_drain=Shield drain
+target.data.special.shield_vamp=Shield vamp
+target.data.special.tele_back=TeleBack
+target.data.special.shield_reset=Shield reset
+target.data.special.on=ON
+target.data.special.off=off
+target.data.systems=Systems
+target.data.type=Type
+target.data.unknown_value=-?-
+target.drone=Drone
+target.mesh.unknown=Unknown
+target.mine=Mine
+target.nebula=Nebula
+target.none=No target
+target.npc.type.unscanned=Unknown vessel
+target.range.near=Range: {0,number,integer}
+target.range.far=Range: {0,number,0.0}k
+target.scan=Scan
+target.torpedo=Torpedo
+target.unknown_name=Unknown
+target.vessel.race_and_class={0} {1}

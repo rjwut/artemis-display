@@ -54,6 +54,9 @@ public class Configuration {
     System.out.println("java [Java options] -jar <jarFile> [ArtemisDisplay options]");
     System.out.println();
     FLAGS.values().forEach(System.out::println);
+    System.out.println();
+    System.out.println("More details at the GitHub repository:");
+    System.out.println("https://github.com/rjwut/artemis-display");
   }
 
   private static final String[] ARTEMIS_INSTALL_DIRECTORIES = {
